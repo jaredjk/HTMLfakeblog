@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Food Blog</title>
+        <meta name="description" content="Foodie Blog. Everyone loves food, So this blog is all about finding local authentic restuarants and finding delicious food">
+    </head>
+    <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+    </style>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <h1>Food Blog</h1>
+                <ul>
+                    <li>Restaurants I've been</li>
+                    <li>Recommend me place to eat</li>
+                    <li>Survey</li>
+                </ul>
+            </div>
+            <div id="main-content">
+                <h2>Angelou’s Mexican Grill</h2>
+                <p>One of the best burritos in the South Bay. The Cali moko burrito tops the charts for this Mexican food conisour.</p>
+                    <a href="http://www.angelousmexicangrill.com/index.html">Angelou's Mexican Grill Website</a>
+                <p> <img src="https://s3-media4.fl.yelpcdn.com/bphoto/Wf58CkDiW785h7HnhMsaUA/o.jpg" alt="genbbq" style="width:700px;height:500px;"></p>
+                
+                <h2>Gen Korean BBQ House</h2>
+                <p>My favorite meats are the Hawaiian steak that comes with pineapple slices. </p> 
+                <a href="http://genkoreanbbq.com/"> Gen Korean BBQ House Website</a>
+                <p> 
+                    <img src="http://genkoreanbbq.com/wp-content/uploads/2015/05/mainpic_b2.jpg" alt="genbbq" style="width:700px;height:500px;">
+                </p>
+            </div>
+            <h2>Next restaurant to try</h2>
+            <table style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Address</th>
+                            <th>Website</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Firehouse No.1 Gastropub</td>
+                            <td>69 N San Pedro St San Jose, CA 95110</td>
+                            <td>firehouse1.com</td>
+                        </tr>
+                        <tr>
+                            <td>The Table</td>
+                            <td>1110 Willow St San Jose, CA 95125</td>
+                            <td>thetablesj.com</td>
+                        </tr>
+                        <tr>
+                            <td>KoJa Kitchen</td>
+                            <td>1085 E Brokaw Rd Ste 10 San Jose, CA 95131</td>
+                            <td>kojakitchen.com</td>
+                        </tr>
+                    </tbody>
+            </table>
+
+
+            
+            <p>
+                Recommend me a awesome restaurant?<br>
+                <textarea name="description"></textarea>
+            </p>
+
+            <p>
+                Which type of food you do like?
+                <label for="american">American</label>
+                <input type="checkbox" id="american" name="food" value="american">
+                
+                <label for="japanese">Japanese</label>
+                <input type="checkbox" id="japanese" name="food" value="japanese">
+                
+                <label for="chinese">Chinese</label>
+                <input type="checkbox" id="chinese" name="food" value="chinese">
+                
+                <label for="korean">Korean</label>
+                <input type="checkbox" id="korean" name="food" value="korean">
+                
+                <label for="vietnamese">Vietnamese</label>
+                <input type="checkbox" id="vietnamese" name="food" value="vietnamese">
+                    
+                <label for="mexican">Mexican</label>
+                <input type="checkbox" id="mexican" name="food" value="mexican">
+                
+                <label for="italian">Italian</label>
+                <input type="checkbox" id="italian" name="food" value="italian">
+                
+                <label for="french">French</label>
+                <input type="checkbox" id="french" name="food" value="french">
+
+                <label for="other">Other</label>
+                <input type="checkbox" id="other" name="food" value="other">
+            </p>
+           
+            <p>
+                Which do you prefer?
+                <select name="prefer">
+                    <option value="sushi">sushi</option>
+                    <option value="ribs">ribs</option>
+                </select>
+            </p>
+                
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+            <div id="footer">
+                <a href="/home">HOME</a>
+                <a href="/contact">CONTACT US</a>
+                <a href="/info">INFORMATION</a>
+            </div>
+       </div>
+   </body>
+</html>
